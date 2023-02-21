@@ -101,17 +101,161 @@ span.team-position-cell {
     margin: 0 auto;
 }
 
-span.team-position-cell.QB {
-    background-color: #CF3323;
+/* Arizona Cardinals */
+span.team-position-cell.ARI {
+    background-color: #97233F;
 }
 
-span.team-position-cell.RB {
-    background-color: #123E72;
+/* Atlanta Falcons */
+span.team-position-cell.ATL {
+    background-color: #A71930;
 }
 
-span.team-position-cell.WR {
-    background-color: #297DB9;
+/* Baltimore Ravens */
+span.team-position-cell.BAL {
+    background-color: #241773;
 }
 
-span.team-position-cell.TE {
-    background-color: #3C3B6E;
+/* Buffalo Bills */
+span.team-position-cell.BUF {
+    background-color: #00338D;
+}
+
+/* Carolina Panthers */
+span.team-position-cell.CAR {
+    background-color: #0085CA;
+}
+
+/* Chicago Bears */
+span.team-position-cell.CHI {
+    background-color: #0B162A;
+}
+
+/* Cincinnati Bengals */
+span.team-position-cell.CIN {
+    background-color: #FB4F14;
+}
+
+/* Cleveland Browns */
+span.team-position-cell.CLE {
+    background-color: #311D00;
+}
+
+/* Dallas Cowboys */
+span.team-position-cell.DAL {
+    background-color: #041E42;
+}
+
+/* Denver Broncos */
+span.team-position-cell.DEN {
+    background-color: #FB4F14;
+}
+
+/* Detroit Lions */
+span.team-position-cell.DET {
+    background-color: #0076B6;
+}
+
+/* Green Bay Packers */
+span.team-position-cell.GB {
+    background-color: #203731;
+}
+
+/* Houston Texans */
+span.team-position-cell.HOU {
+    background-color: #03202F;
+}
+
+/* Indianapolis Colts */
+span.team-position-cell.IND {
+    background-color: #002C5F;
+}
+
+/* Jacksonville Jaguars */
+span.team-position-cell.JAX {
+    background-color: #006778;
+}
+
+/* Kansas City Chiefs */
+span.team-position-cell.KC {
+    background-color: #E31837;
+}
+
+/* Las Vegas Raiders */
+span.team-position-cell.LV {
+    background-color: #000000;}
+
+    /* Los Angeles Chargers */
+span.team-position-cell.LAC {
+background-color: #002A5E;
+}
+
+/* Los Angeles Rams */
+span.team-position-cell.LAR {
+background-color: #002244;
+}
+
+/* Miami Dolphins */
+span.team-position-cell.MIA {
+background-color: #008E97;
+}
+
+/* Minnesota Vikings */
+span.team-position-cell.MIN {
+background-color: #4F2683;
+}
+
+/* New England Patriots */
+span.team-position-cell.NE {
+background-color: #0A2342;
+}
+
+/* New Orleans Saints */
+span.team-position-cell.NO {
+background-color: #D3BC8D;
+}
+
+/* New York Giants */
+span.team-position-cell.NYG {
+background-color: #0B2265;
+}
+
+/* New York Jets */
+span.team-position-cell.NYJ {
+background-color: #203731;
+}
+
+/* Philadelphia Eagles */
+span.team-position-cell.PHI {
+background-color: #004C54;
+}
+
+/* Pittsburgh Steelers */
+span.team-position-cell.PIT {
+background-color: #FFB612;
+}
+
+/* San Francisco 49ers */
+span.team-position-cell.SF {
+background-color: #AA0000;
+}
+
+/* Seattle Seahawks */
+span.team-position-cell.SE {
+background-color: #69BE28;
+}
+
+/* Tampa Bay Buccaneers */
+span.team-position-cell.TB {
+background-color: #D50A0A;
+}
+
+/* Tennessee Titans */
+span.team-position-cell.TEN {
+background-color: #4095D1;
+}
+
+/* Washington Football Team */
+span.team-position-cell.WAS {
+background-color: #773141;
+}

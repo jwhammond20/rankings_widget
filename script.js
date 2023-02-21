@@ -49,7 +49,7 @@ fetch("https://ranks.dynastynerds.com/top10")
       const rankPositionSpan = document.createElement("span");
       rankPositionSpan.innerText = `${player.team} - ${player.position}`;
       rankPositionSpan.classList.add("team-position-cell");
-      rankPositionSpan.classList.add(player.position);
+      rankPositionSpan.classList.add(player.team);
       rankPositionCell.appendChild(rankPositionSpan);
 
       // Set the text and styles for the positional rank cell
