@@ -1,29 +1,117 @@
+table {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+
+table th {
+    font-family: 'Teko', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #545454;
+    background-color: white;
+}
+
+#players-table tbody tr {
+    height: 50px;
+    background-color: white;
+
+}
+
 #players-table {
     width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: none;
+    background-color: white;
+
 }
 
 #players-table th,
 #players-table td {
+    border: none;
+    vertical-align: middle;
+}
+
+#players-table th {
     text-align: center;
-    padding: 10px;
+    border-bottom: 1px solid #CCD5E2;
+}
+
+#players-table td {
+    text-align: center;
+    padding: 7px 1px 7px 1px;
+    border-bottom: 1px solid #CCD5E2;
 }
 
 .player-info {
     display: flex;
     align-items: center;
+    vertical-align: middle;
+}
+
+.pos-rank {
+    font-weight: bold;
+    size: 16px;
+    text-align: left;
+    white-space: nowrap;
 }
 
 .player-image {
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+    border-radius: 50% !important;
+    border: 1px solid #CCD5E2 !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 5px;
     object-fit: cover;
 }
 
-.player-name {
-    font-weight: bold;
+td.player-info {
+    white-space: nowrap;
 }
+
+#players-table td.rank-cell {
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    color: #297DB9;
+    font-weight: 600;
+}
+
+.team-position-cell {
+    text-align: center;
+    margin: auto;
+
+}
+
+span.team-position-cell {
+    font-family: 'Teko', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 1px 5px 0px 5px;
+    border-radius: 5px;
+    color: white;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+span.team-position-cell.QB {
+    background-color: #CF3323;
+}
+
+span.team-position-cell.RB {
+    background-color: #123E72;
+}
+
+span.team-position-cell.WR {
+    background-color: #297DB9;
+}
+
+span.team-position-cell.TE {
+    background-color: #3C3B6E;
