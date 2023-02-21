@@ -1,0 +1,29 @@
+#players-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#players-table th,
+#players-table td {
+    text-align: center;
+    padding: 10px;
+}
+
+.player-info {
+    display: flex;
+    align-items: center;
+}
+
+.player-image {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.player-name {
+    font-weight: bold;
+}
